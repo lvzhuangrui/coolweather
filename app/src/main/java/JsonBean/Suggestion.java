@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 bejson.com 
   */
-package com.besjon.pojo;
+package JsonBean;
 
 /**
  * Auto-generated: 2018-01-02 10:19:20
@@ -17,8 +17,8 @@ public class Suggestion {
     private Drsg drsg;
     private Flu flu;
     private Sport sport;
-    private Trav trav;
-    private Uv uv;
+    private JsonBean.Trav trav;
+    private JsonBean.Uv uv;
     public void setAir(Air air) {
          this.air = air;
      }
@@ -61,17 +61,17 @@ public class Suggestion {
          return sport;
      }
 
-    public void setTrav(Trav trav) {
+    public void setTrav(JsonBean.Trav trav) {
          this.trav = trav;
      }
-     public Trav getTrav() {
+     public JsonBean.Trav getTrav() {
          return trav;
      }
 
-    public void setUv(Uv uv) {
+    public void setUv(JsonBean.Uv uv) {
          this.uv = uv;
      }
-     public Uv getUv() {
+     public JsonBean.Uv getUv() {
          return uv;
      }
 

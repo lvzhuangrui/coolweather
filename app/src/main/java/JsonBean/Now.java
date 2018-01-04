@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 bejson.com 
   */
-package com.besjon.pojo;
+package JsonBean;
 
 /**
  * Auto-generated: 2018-01-02 10:19:20
@@ -18,7 +18,7 @@ public class Now {
     private String pres;
     private String tmp;
     private String vis;
-    private Wind wind;
+    private JsonBean.Wind wind;
     public void setCond(Cond cond) {
          this.cond = cond;
      }
@@ -68,10 +68,10 @@ public class Now {
          return vis;
      }
 
-    public void setWind(Wind wind) {
+    public void setWind(JsonBean.Wind wind) {
          this.wind = wind;
      }
-     public Wind getWind() {
+     public JsonBean.Wind getWind() {
          return wind;
      }
 

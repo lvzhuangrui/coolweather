@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 bejson.com 
   */
-package com.besjon.pojo;
+package JsonBean;
 import java.util.Date;
 
 /**
@@ -19,10 +19,10 @@ public class Daily_forecast {
     private String pcpn;
     private String pop;
     private String pres;
-    private Tmp tmp;
+    private JsonBean.Tmp tmp;
     private String uv;
     private String vis;
-    private Wind wind;
+    private JsonBean.Wind wind;
     public void setAstro(Astro astro) {
          this.astro = astro;
      }
@@ -72,10 +72,10 @@ public class Daily_forecast {
          return pres;
      }
 
-    public void setTmp(Tmp tmp) {
+    public void setTmp(JsonBean.Tmp tmp) {
          this.tmp = tmp;
      }
-     public Tmp getTmp() {
+     public JsonBean.Tmp getTmp() {
          return tmp;
      }
 
@@ -93,10 +93,10 @@ public class Daily_forecast {
          return vis;
      }
 
-    public void setWind(Wind wind) {
+    public void setWind(JsonBean.Wind wind) {
          this.wind = wind;
      }
-     public Wind getWind() {
+     public JsonBean.Wind getWind() {
          return wind;
      }
 

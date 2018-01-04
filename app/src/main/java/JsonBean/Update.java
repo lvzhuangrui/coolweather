@@ -1,7 +1,7 @@
 /**
   * Copyright 2018 bejson.com 
   */
-package com.besjon.pojo;
+package JsonBean;
 import java.util.Date;
 
 /**
